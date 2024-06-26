@@ -27,18 +27,31 @@ Para executar os exemplos deste repositório, você precisará do seguinte:
 Estrutura recomendada para aplicação Kotlin (O presente código sofreu alterações na estrutura, para fins didáticos):
 
 ├── src
+
 │ ├── main
+
 │ │ ├── kotlin
+
 │ │ │ ├── aula1
+
 │ │ │ ├── aula2
+
 │ │ │ ├── ...
+
 │ │ └── resources
+
 │ └── test
+
 │ ├── kotlin
+
 │ └── resources
+
 ├── .gitignore
+
 ├── README.md
+
 └── build.gradle.kts
+
 
 
 - **src**: Contém o código-fonte e os testes.
