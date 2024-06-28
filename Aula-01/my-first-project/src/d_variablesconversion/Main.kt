@@ -21,5 +21,6 @@ fun main() {
     val variableInt2 = variableDouble2.toInt()
     //print(variableInt2)
 
+
     
 }

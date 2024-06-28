@@ -86,11 +86,37 @@ fun main() {
      */
 
     val variableChar: Char = 'A'
-    print(variableChar)
+    //println(variableChar)
 
     /**
      * VARIABLES STRING
      */
     val variableString: String = "Hello World"
+    println(variableString)
+
+    val varString1: String = "Hello World!"
+    val varString2: String = "Welcome Again!"
+
+    val varString12 = "$varString1 $varString2"
+    println(varString12)
+
+    /**
+     * LITERAL STRINGS
+     * O rato roeu
+     * a roupa do
+     * rei de "Roma"
+     */
+
+    val stringTest = "O rato roeu\na roupa do\nrei de \"Roma\""
+
+    //println(stringTest)
+
+    val stringTest2 = """
+        O rato rodeu
+            a roupa do
+                rei de "Roma"
+    """.trimIndent()
+
+    print(stringTest2)
 
 }
