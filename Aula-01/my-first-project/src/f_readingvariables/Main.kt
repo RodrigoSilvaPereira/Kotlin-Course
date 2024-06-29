@@ -19,7 +19,7 @@ fun main() {
     print("> ")
     val n2 = scanner.nextInt()
 
-    val resultado = n2 + n1
+    val result = n2 + n1
 
-    print(resultado)
+    print(result)
 }
